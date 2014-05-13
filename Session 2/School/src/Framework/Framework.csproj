@@ -49,6 +49,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\FakeRepository.cs" />
+    <Compile Include="DAL\GenericRepository.cs" />
+    <Compile Include="DAL\GenericV2Repository.cs" />
+    <Compile Include="DAL\IEntity.cs" />
+    <Compile Include="DAL\IRepository.cs" />
+    <Compile Include="DAL\IUnitOfWork.cs" />
+    <Compile Include="DAL\IUnitOfWorkProvider.cs" />
+    <Compile Include="DAL\PetaPocoUnitOfWork.cs" />
+    <Compile Include="DAL\PetaPocoUnitOfWorkProvider.cs" />
     <Compile Include="DI\DependencyFactory.cs" />
     <Compile Include="DI\DependencyProviderDAL.cs" />
     <Compile Include="DI\DependencyProviderFake.cs" />

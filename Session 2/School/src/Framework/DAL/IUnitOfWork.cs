@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Services
+namespace Framework.DAL
 {
-    public class ServiceBase
+    public interface IUnitOfWork : IDisposable
     {
+        void Commit();
+        Database Db { get; }
     }
 }

@@ -40,15 +40,11 @@ namespace FrameworkTests
         [TestMethod]
         public void RepositoryTest()
         {
-            /*
-             
             var myrepository = DependencyFactory.Resolve<Framework.DAL.IRepository>();
             var StudentList = GenerateData(10);
 
             var count = myrepository.Insert(StudentList[0]);
             Assert.IsTrue(count>0);
-             
-            */
 
 
         }

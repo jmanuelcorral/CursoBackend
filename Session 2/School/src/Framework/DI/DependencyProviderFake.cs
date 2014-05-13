@@ -13,7 +13,7 @@ namespace Framework.DI
         internal override IUnityContainer GetContainer()
         {
             IUnityContainer unityContainerReal = new UnityContainer();
-            //unityContainerReal.RegisterType(typeof(IRepository), typeof(FakeRepository), new InjectionMember[0]);
+            unityContainerReal.RegisterType(typeof(IRepository), typeof(FakeRepository), new InjectionMember[0]);
             return unityContainerReal;
         }
     }
